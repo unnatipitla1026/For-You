@@ -1,39 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-<title>It's Okay 💖</title>
+    <title>💖</title>
 </head>
 
 <body>
+    <button class="open-btn" onclick="openPopup()">Open My Heart 💌</button>
 
-<div class="container">
-
-    <div class="bouquet">💐💖🌸</div>
-
-    <h1>It's Okay... Koi Baat Nai 💕</h1>
-
-    <p>
-        Heyyy🥹💗  
-        Sometimes things don’t go the way we want... <br>  
-        <b>It’s completely okayyy 💞</b>
-    </p>
-
-    <p>
-        Koi baat nai tumhe regret hua utna mere liye kaafi hai😙❤️  
-        And this bouquet is just for YOU 💐🥰  
-        I love you mere nelu🥹❤️🧿
-    </p>
-
-    <button onclick="showLove()">Click for More Love 💌</button>
-
-    <div class="footer">
-        Made with lots & lots of love 💝🌷
+    <div class="popup" id="lovePopup">
+        <div class="popup-content">
+            <h2>For My Shona 💍❤️</h2>
+            <p>
+                I Love You So Much Mera Bachha😘💕<br><br>
+                You are my forever person,  
+                my safe place, my biggest blessing🥹💖<br><br>
+                No matter what happens...  
+                I’m never leaving you 💞✨
+            </p>
+        <button class="close-btn" onclick="closePopup()">Close 💕</button>
+        </div>
     </div>
-
-</div>
 
    <script src="script.js"></script> 
     
