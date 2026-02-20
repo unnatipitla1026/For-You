@@ -1,3 +1,7 @@
-function showLove(){
-    alert("You are special 💖 Koi baat nai... sab theek ho jayega 🥰🌸");
+function openPopup(){
+    document.getElementById("lovePopup").classList.add("active");
+}
+
+function closePopup(){
+    document.getElementById("lovePopup").classList.remove("active");
 }
